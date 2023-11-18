@@ -1,3 +1,5 @@
+// 프로그래머스 최댓값 만들기(1)
+
 import java.util.Arrays;
 
 class Solution {
