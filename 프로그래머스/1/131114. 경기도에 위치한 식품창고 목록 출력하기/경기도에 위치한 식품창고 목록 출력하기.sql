@@ -4,5 +4,5 @@ FROM FOOD_WAREHOUSE
 where WAREHOUSE_NAME like '%경기%'
 order by WAREHOUSE_ID asc
 
--- if null(FREEZER_YN, 'N') as FREEZER_YN
+-- ifnull(FREEZER_YN, 'N') as FREEZER_YN
 -- if(FREEZER_YN is null, 'N',FREEZER_YN) as FREEZER_YN
