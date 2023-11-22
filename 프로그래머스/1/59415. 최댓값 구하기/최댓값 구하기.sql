@@ -1,0 +1,2 @@
+-- 코드를 입력하세요
+SELECT MAX(DATETIME) as 이름 FROM ANIMAL_INS
