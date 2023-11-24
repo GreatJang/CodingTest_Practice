@@ -4,16 +4,16 @@ class Solution {
         if (angle>0 && angle<90){
             answer = 1;
             return answer;
-            
-        }else if (angle == 90){
+        }
+        if (angle == 90){
             answer = 2;
-            return answer;
-            
-        }else if (angle>90 && angle<180){
+            return answer; 
+        }
+        if (angle>90 && angle<180){
             answer = 3;
-            return answer;
-            
-        }else {
+            return answer;   
+        }
+        else {
             answer = 4;
             return answer;
         }
