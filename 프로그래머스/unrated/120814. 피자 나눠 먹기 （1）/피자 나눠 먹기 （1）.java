@@ -6,3 +6,4 @@ class Solution {
         return (int)Math.ceil((double) n/7);
     }
 }
+// Math.ceil은 소수점 올림
