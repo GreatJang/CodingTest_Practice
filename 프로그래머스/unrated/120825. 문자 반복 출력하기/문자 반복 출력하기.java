@@ -7,8 +7,6 @@ class Solution {
                 for(int m = 1; m <= n; m++){
                     answer += a[i];
                 }
-                // answer += a[i];
-                // answer += a[i];
             }
         return answer;
     }
