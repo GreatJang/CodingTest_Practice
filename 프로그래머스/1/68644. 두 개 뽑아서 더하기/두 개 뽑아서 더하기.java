@@ -24,3 +24,19 @@ class Solution {
         return answer;
     }
 }
+
+// 리스트 사용
+//             List<Integer> myList = new ArrayList<>();
+//                 for(int i=0; i<numbers.length-1; i++){
+//                     for(int j=i+1; j< numbers.length; j++){
+//                         if(!myList.contains(numbers[i]+numbers[j])){
+//                             myList.add(numbers[i]+numbers[j]);
+//                         }
+//                     }
+//                 }
+//                 Collections.sort(myList);
+//                 int[] answer = new int[myList.size()];
+//                 for(int i=0; i<myList.size(); i++){
+//                     answer[i] = myList.get(i);
+//                 }
+//                 System.out.println(myList);
