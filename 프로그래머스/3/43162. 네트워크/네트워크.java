@@ -7,9 +7,7 @@ class Solution {
         graph = computers;
         visited = new boolean[n];
         for(int i=0; i<n; i++){
-        if(visited[i] == false){
-                dfs(i);
-            }
+            dfs(i);
         }
         return n-count;
     }
