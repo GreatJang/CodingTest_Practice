@@ -3,17 +3,19 @@ class Solution {
     public int solution(int a, int b) {
         int answer = 0;
         String a1 = a + "";
-        String answer1 = b+a1;
-        String answer2 = a1+b;
-        if(Integer.parseInt(answer1) > Integer.parseInt(answer2)){
-            answer = Integer.parseInt(answer1);
+        String answer1 = a1+b;
+        String answer2 = b+a1;
+        int answer11 = Integer.parseInt(answer1);
+        int answer22 = Integer.parseInt(answer2);
+        
+        if(answer11 > answer22){
+            return answer11;
         }
-        if(Integer.parseInt(answer1) < Integer.parseInt(answer2)){
-            answer = Integer.parseInt(answer2);
+        if(answer11 < answer22){
+            return answer22;
         }
-        if(Integer.parseInt(answer1) == Integer.parseInt(answer2)){
-            answer = Integer.parseInt(answer2);
+        else{
+            return answer22;
         }
-        return answer;
     }
 }
